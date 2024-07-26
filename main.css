@@ -1,0 +1,163 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header__top{
+    background-color: #000;
+
+}
+.continer{
+max-width: 1300px;
+width: 100%;
+margin: 0 auto;
+padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+}
+.lang{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    outline: none;
+}
+option{
+    color: #000;
+}
+.header__btn{
+    width: 192px;
+    background-color: #f1a900;
+    color: #000000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    padding: 26px 0;
+}
+.header__item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.header__bottom{
+    background-color: #222222;
+    padding: 15px 0;
+}
+.header-bottom__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 101px;
+
+}
+.header-bottom__link{
+    color: #ffffff;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-decoration: none;
+}
+.select{
+background-color: transparent;
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+border: none;
+}
+.hero{
+    background-image: url(./images/image\ 5\ \(2\).png);
+    width: 100%;
+    height: 797px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h3__title{
+background: hsl(42, 100%, 47%);
+color: #000000;
+font-family: "Inter";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+width: 235px;
+padding: 25px 43px 26px 45px;
+}
+.title__h3{
+color: #ffffff;
+font-family: "Inter";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+background-color: #000;
+width: 235px;
+padding: 20px 18px 22px 18px;
+}
+.div__title{
+    padding: 349px 0;
+    
+}
+.div__ramka{
+display: flex;
+justify-content: center;
+gap: 64px;
+}
+.div__prazrachniy{
+    padding: 31px 22px;
+}
+.div__ota{
+    background-color: #f1a90054;
+    width: 966px;
+    margin: 0 auto;
+    padding: 31px 22px; 
+}
+.h2__title{
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+text-align: center;
+width: 922px;
+}
+.footer__re{
+    background-color: #000;
+}
+.div__qora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul__display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.li__telegram{
+   padding-right: 54px ;
+}
+.li__yotube{
+    padding-right: 54ps;
+}
+.li__insta{
+    padding-left: 54px;
+}
